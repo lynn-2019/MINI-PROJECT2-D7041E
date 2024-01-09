@@ -20,6 +20,11 @@ A Convolutional Neural Network (CNN) is a special type of neural network that is
 
 For each dataset, we apply both algorithms and tune their hyperparameters by testing several combinations of hyperparameters using random and grid search and evaluating their performance on the validation dataset. At the end, the best model is tested and the metrics Accuracy and F1 Score are calculated and the Confusion Matrix is plotted.
 
+## Replication of the results
+
+If you want to reproduce the results, we recommend using the second dataset, as all the data is available in GitHub and the first data set was unfortunately too large. If you decide to do so, you can simply run the Jupyter Notebook files.
+However, if you also want to test the first data set, you will need to download the training and test data as well as their ground truth from the linked website under Task 3.  The training images must be saved in the folder "FirstDataset-ISIC" and its subfolder "ISIC2018_Task3_Training_Input" and the test images in the subfolder "ISIC2018_Task3_Test_Input". The ground truth csv files are only saved in the "FirstDataset-ISIC" folder. The validation dataset does not need to be downloaded, as we create it from the training data using cross fold. After those steps, you should be able to execute the Jupyter Notebook files.
+
 ## Links & Contacts
 
 You Tube:
