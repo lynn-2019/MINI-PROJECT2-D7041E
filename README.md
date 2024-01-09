@@ -20,8 +20,9 @@ A Convolutional Neural Network (CNN) is a special type of neural network that is
 
 For each dataset, we apply both algorithms and tune their hyperparameters by testing several combinations of hyperparameters using random and grid search and evaluating their performance on the validation dataset. At the end, the best model is tested and the metrics Accuracy and F1 Score are calculated and the Confusion Matrix is plotted.
 
-## Youtube Link
+## Links & Contacts
 
+You Tube:
 https://youtu.be/8128hGU7jig
 
 Authors: Lynn Habermann (lynhab-3@student.ltu.se) & Conrad Reintjes (conrei-3@student.ltu.se)
